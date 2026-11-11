@@ -1,6 +1,6 @@
-# Mountain Top
+# Monten Top
 
-Marketing site for Mountain Top — AI-powered short-term rental management for
+Marketing site for Monten Top — AI-powered short-term rental management for
 property investors in the United Kingdom and Ireland.
 
 Built with Next.js (App Router), React and TypeScript. Styling is hand-written
@@ -39,7 +39,7 @@ and delivers the enquiry through whichever destination is configured:
 | --- | --- |
 | `RESEND_API_KEY` | Resend API key used to email the enquiry |
 | `ENQUIRY_TO_EMAIL` | Team inbox that receives enquiries |
-| `ENQUIRY_FROM_EMAIL` | Verified sender, e.g. `Mountain Top <enquiries@domain.com>` |
+| `ENQUIRY_FROM_EMAIL` | Verified sender, e.g. `Monten Top <enquiries@domain.com>` |
 | `ENQUIRY_WEBHOOK_URL` | Optional CRM/automation endpoint that also receives the JSON |
 | `NEXT_PUBLIC_SITE_URL` | Canonical site URL for metadata |
 
