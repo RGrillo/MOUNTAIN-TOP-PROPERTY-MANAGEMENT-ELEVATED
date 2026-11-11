@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   images: { unoptimized: true },
   poweredByHeader: false,
   allowedDevOrigins: ["pv-f29340e20aea-5bada10e-21e7-4468-a72b-20561d608706.style.dev"],
+  basePath: '/MOUNTAIN-TOP-PROPERTY-MANAGEMENT-ELEVATED',
 };
 
 export default nextConfig;
