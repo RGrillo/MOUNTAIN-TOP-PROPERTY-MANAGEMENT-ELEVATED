@@ -119,7 +119,7 @@ export async function POST(request: Request) {
   const resendKey = process.env.RESEND_API_KEY;
   const toEmail = process.env.ENQUIRY_TO_EMAIL;
   const fromEmail =
-    process.env.ENQUIRY_FROM_EMAIL ?? "Mountain Top Website <onboarding@resend.dev>";
+    process.env.ENQUIRY_FROM_EMAIL ?? "Monten Top Website <onboarding@resend.dev>";
   const webhookUrl = process.env.ENQUIRY_WEBHOOK_URL;
 
   const configured = Boolean((resendKey && toEmail) || webhookUrl);
@@ -134,7 +134,7 @@ export async function POST(request: Request) {
         {
           ok: false,
           message:
-            "Our enquiry system is being configured. Please email hello@mountaintop.co.uk and we will respond directly.",
+            "Our enquiry system is being configured. Please email hello@monten.top and we will respond directly.",
         },
         { status: 503 },
       );
@@ -167,7 +167,7 @@ export async function POST(request: Request) {
           reply_to: enquiry.email,
           subject: `Portfolio assessment request — ${enquiry.fullName} (${enquiry.properties} properties)`,
           html: `<div style="font-family:Inter,Helvetica,Arial,sans-serif;max-width:560px">
-            <p style="font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#9c7d47;margin:0 0 8px">Mountain Top · New enquiry</p>
+            <p style="font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#9c7d47;margin:0 0 8px">Monten Top · New enquiry</p>
             <h1 style="font-size:20px;color:#173d32;margin:0 0 16px">${escapeHtml(enquiry.fullName)}</h1>
             <table style="border-collapse:collapse;width:100%">${rows}</table>
             <p style="font-size:12px;color:#6d7a74;margin-top:20px">Reference ${reference} · ${submittedAt}<br/>Consent given: ${enquiry.consent ? "yes" : "no"}</p>
@@ -182,7 +182,7 @@ export async function POST(request: Request) {
       fetch(webhookUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ source: "mountaintop-website", ...record }),
+        body: JSON.stringify({ source: "monten-website", ...record }),
       }),
     );
   }
@@ -203,7 +203,7 @@ export async function POST(request: Request) {
       {
         ok: false,
         message:
-          "We could not send your enquiry just now. Please try again, or email hello@mountaintop.co.uk.",
+          "We could not send your enquiry just now. Please try again, or email hello@monten.top.",
       },
       { status: 502 },
     );

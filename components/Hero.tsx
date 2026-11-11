@@ -35,7 +35,7 @@ export function Hero() {
 
           <p className="hero__lede">
             Your short-term rental portfolio deserves more than traditional
-            management. Mountain Top combines AI-powered operations, intelligent
+            management. Monten Top combines AI-powered operations, intelligent
             revenue optimisation and trusted local teams to maximise performance
             while taking the day-to-day work off your hands.
           </p>
@@ -59,7 +59,7 @@ export function Hero() {
       </div>
 
       <div className="hero__meta" aria-hidden="true">
-        <strong>United Kingdom · Ireland</strong>
+        <strong>Cork · Dublin · Limerick</strong>
         <span>Fully managed portfolios</span>
         <span className="hero__scroll" />
       </div>

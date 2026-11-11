@@ -1,7 +1,7 @@
 # Monten Top
 
 Marketing site for Monten Top — AI-powered short-term rental management for
-property investors in the United Kingdom and Ireland.
+property investors in Cork, Dublin and Limerick, Ireland. Site domain: `monten.top`.
 
 Built with Next.js (App Router), React and TypeScript. Styling is hand-written
 CSS (`app/globals.css`) with design tokens for colour, type and spacing; no CSS
@@ -58,4 +58,5 @@ and have the privacy and terms pages reviewed.
   people and local partners.
 - No guaranteed income, no invented testimonials, clients, awards or statistics.
 - Dashboard figures are labelled illustrative demo data.
-- Coverage is limited to the UK and Ireland, with location confirmed per enquiry.
+- Coverage is limited to Cork, Dublin and Limerick, with location confirmed per
+  enquiry.

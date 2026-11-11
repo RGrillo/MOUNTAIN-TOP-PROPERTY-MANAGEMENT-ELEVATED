@@ -21,7 +21,7 @@ export function FinalCta() {
         <span className="eyebrow eyebrow--light">Portfolio assessment</span>
         <h2>Ready to Get More From Your Property Portfolio?</h2>
         <p>
-          Let Mountain Top take care of the complexity while you focus on growing
+          Let Monten Top take care of the complexity while you focus on growing
           your investments.
         </p>
         <div className="final-cta__actions">

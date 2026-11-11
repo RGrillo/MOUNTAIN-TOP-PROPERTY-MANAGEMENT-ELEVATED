@@ -130,7 +130,7 @@ export function ContactForm() {
           <h3>Thank you, {submitted.name.split(" ")[0]}.</h3>
           <p>
             Your portfolio assessment request has been received. A member of the
-            Mountain Top team will review the details and contact you to arrange a
+            Monten Top team will review the details and contact you to arrange a
             conversation. We usually respond within two business days.
           </p>
           <dl>
@@ -185,7 +185,7 @@ export function ContactForm() {
               name="email"
               type="email"
               autoComplete="email"
-              placeholder="jane@company.co.uk"
+              placeholder="jane@company.ie"
               aria-invalid={Boolean(errors.email)}
               aria-describedby={errors.email ? "error-email" : undefined}
             />
@@ -362,7 +362,7 @@ export function ContactForm() {
                 aria-describedby={errors.consent ? "error-consent" : undefined}
               />
               <span>
-                I agree to Mountain Top contacting me about my enquiry and
+                I agree to Monten Top contacting me about my enquiry and
                 processing my details in line with the{" "}
                 <a href="/privacy">Privacy Policy</a>.
               </span>

@@ -4,7 +4,7 @@ import { CONTACT_EMAIL, PROPERTY_RANGES } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "The terms that govern use of the Mountain Top website and the basis on which portfolio management services are discussed.",
+    "The terms that govern use of the Monten Top website and the basis on which portfolio management services are discussed.",
   robots: { index: false, follow: true },
 };
 
@@ -24,7 +24,7 @@ export default function TermsPage() {
 
         <h2>Use of this website</h2>
         <p>
-          This website provides information about Mountain Top&apos;s short-term
+          This website provides information about Monten Top&apos;s short-term
           rental management services. By using it, you agree not to misuse the
           site, attempt to disrupt access, or rely on its content as professional
           financial, tax or legal advice.
@@ -32,7 +32,7 @@ export default function TermsPage() {
 
         <h2>Services</h2>
         <p>
-          Mountain Top provides a fully managed short-term rental operating
+          Monten Top provides a fully managed short-term rental operating
           service, delivered through AI-enabled systems, a human team and vetted
           local service partners. The scope of any engagement is confirmed in a
           written proposal or agreement for each portfolio.
@@ -64,16 +64,16 @@ export default function TermsPage() {
 
         <h2>Coverage</h2>
         <p>
-          We focus on the United Kingdom and Ireland. Coverage depends on location
-          and operational requirements, and is confirmed during the portfolio
-          assessment. Enquiries are welcome for portfolios of{" "}
+          We focus on Cork, Dublin and Limerick, Ireland. Coverage depends on
+          location and operational requirements, and is confirmed during the
+          portfolio assessment. Enquiries are welcome for portfolios of{" "}
           {PROPERTY_RANGES.join(", ")} properties.
         </p>
 
         <h2>Liability</h2>
         <p>
           Nothing in these terms excludes liability that cannot lawfully be
-          excluded. Otherwise, and to the extent permitted by law, Mountain Top is
+          excluded. Otherwise, and to the extent permitted by law, Monten Top is
           not liable for indirect or consequential loss arising from use of this
           website.
         </p>

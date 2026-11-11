@@ -13,26 +13,26 @@ import { FinalCta } from "@/components/FinalCta";
 import { Contact } from "@/components/Contact";
 import { FAQS } from "@/lib/content";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
-
 export const metadata: Metadata = {
-  title: "Mountain Top | AI-Powered Short-Term Rental Management",
+  title: "Monten Top | AI-Powered Short-Term Rental Management",
   description:
-    "Maximise your short-term rental portfolio with Mountain Top. AI-powered property management, guest operations and revenue optimisation across the UK and Ireland.",
-  alternates: siteUrl ? { canonical: "/" } : undefined,
+    "Maximise your short-term rental portfolio with Monten Top. AI-powered property management, guest operations and revenue optimisation across Cork, Dublin and Limerick, Ireland.",
+  alternates: { canonical: "/" },
 };
 
 const organisationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Mountain Top",
+  name: "Monten Top",
+  url: "https://monten.top",
   description:
-    "AI-powered short-term rental management for property investors across the United Kingdom and Ireland. A fully managed service combining AI operations, human oversight and local partners.",
+    "AI-powered short-term rental management for property investors in Cork, Dublin and Limerick, Ireland. A fully managed service combining AI operations, human oversight and local partners.",
   slogan: "Your properties. Our intelligence. Better performance.",
-  email: "hello@mountaintop.co.uk",
+  email: "hello@monten.top",
   areaServed: [
-    { "@type": "Country", name: "United Kingdom" },
-    { "@type": "Country", name: "Ireland" },
+    { "@type": "City", name: "Cork" },
+    { "@type": "City", name: "Dublin" },
+    { "@type": "City", name: "Limerick" },
   ],
   knowsAbout: [
     "Short-term rental management",

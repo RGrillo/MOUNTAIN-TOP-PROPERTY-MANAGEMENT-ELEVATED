@@ -6,7 +6,7 @@ export const NAV_LINKS = [
   { label: "Contact", href: "#contact" },
 ] as const;
 
-export const CONTACT_EMAIL = "hello@mountaintop.co.uk";
+export const CONTACT_EMAIL = "hello@monten.top";
 
 export const PROBLEMS = [
   {
@@ -245,12 +245,12 @@ export const TRUST_POINTS = [
 
 export const FAQS = [
   {
-    question: "What is Mountain Top?",
+    question: "What is Monten Top?",
     answer:
-      "Mountain Top is an AI-powered short-term rental management company that manages bookings, guest communication, revenue optimisation and property operations for investors and property owners.",
+      "Monten Top is an AI-powered short-term rental management company that manages bookings, guest communication, revenue optimisation and property operations for investors and property owners.",
   },
   {
-    question: "How is Mountain Top different from traditional Airbnb management companies?",
+    question: "How is Monten Top different from traditional Airbnb management companies?",
     answer:
       "We combine AI-powered operations with human supervision and local service partners to streamline management, improve efficiency and provide a more scalable operating model.",
   },
@@ -260,17 +260,17 @@ export const FAQS = [
       "Our objective is to take care of the day-to-day management. We coordinate digital operations and local service partners, while keeping you informed about your properties.",
   },
   {
-    question: "Does Mountain Top manage cleaning and maintenance?",
+    question: "Does Monten Top manage cleaning and maintenance?",
     answer:
       "Yes. We coordinate cleaning, inspections and maintenance through local operational partners.",
   },
   {
     question: "Which areas do you cover?",
     answer:
-      "We are focused on the United Kingdom and Ireland. Contact us to discuss your property's location and operational requirements.",
+      "We currently operate in Cork, Dublin and Limerick. Contact us to discuss your property's location and operational requirements.",
   },
   {
-    question: "How much does Mountain Top charge?",
+    question: "How much does Monten Top charge?",
     answer:
       "Pricing depends on portfolio size, property location, operational requirements and the services required. We provide tailored proposals following an initial portfolio assessment.",
   },
@@ -282,16 +282,17 @@ export const FAQS = [
   {
     question: "Will I retain control of my properties?",
     answer:
-      "Yes. You retain ownership and visibility while Mountain Top manages the agreed operational responsibilities.",
+      "Yes. You retain ownership and visibility while Monten Top manages the agreed operational responsibilities.",
   },
 ] as const;
 
 export const PROPERTY_RANGES = ["1–4", "5–10", "11–25", "26–50", "50+"] as const;
 
 export const PROPERTY_REGIONS = [
-  "United Kingdom",
-  "Ireland",
-  "Both",
+  "Cork",
+  "Dublin",
+  "Limerick",
+  "Multiple",
   "Other",
 ] as const;
 

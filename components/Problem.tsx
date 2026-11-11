@@ -34,7 +34,7 @@ export function Problem() {
         </div>
 
         <p className="problem__summary">
-          Mountain Top brings everything together in one intelligent, fully
+          Monten Top brings everything together in one intelligent, fully
           managed operation.
         </p>
       </div>

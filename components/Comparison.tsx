@@ -8,7 +8,7 @@ export function Comparison() {
       <div className="container">
         <Reveal className="section-head">
           <div className="section-head__title">
-            <span className="eyebrow">Why Mountain Top</span>
+            <span className="eyebrow">Why Monten Top</span>
             <h2 className="h2">Traditional Management. Reimagined.</h2>
           </div>
           <div className="section-head__aside">
@@ -25,7 +25,7 @@ export function Comparison() {
             <span className="compare__head-col">Traditional management</span>
             <span className="compare__head-col compare__head-col--mt">
               <LogoMark size={18} />
-              Mountain Top
+              Monten Top
             </span>
           </div>
 
@@ -35,7 +35,7 @@ export function Comparison() {
               <span className="compare__cell" data-label="Traditional">
                 {row.traditional}
               </span>
-              <span className="compare__cell compare__cell--mt" data-label="Mountain Top">
+              <span className="compare__cell compare__cell--mt" data-label="Monten Top">
                 {row.mountainTop}
               </span>
             </div>
@@ -43,7 +43,7 @@ export function Comparison() {
         </Reveal>
 
         <p className="compare__note">
-          Traditional management can work well for single properties. Mountain Top
+          Traditional management can work well for single properties. Monten Top
           is designed for owners operating at portfolio scale, where coordination,
           reporting and consistency carry more weight.
         </p>

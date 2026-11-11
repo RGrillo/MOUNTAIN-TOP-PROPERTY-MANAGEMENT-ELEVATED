@@ -4,7 +4,7 @@ import { CONTACT_EMAIL } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How Mountain Top collects, uses and protects personal information submitted through this website.",
+    "How Monten Top collects, uses and protects personal information submitted through this website.",
   robots: { index: false, follow: true },
 };
 
@@ -18,20 +18,19 @@ export default function PrivacyPage() {
 
         <p className="legal-page__notice">
           This policy is provided as a working template for review. It should be
-          checked against Mountain Top&apos;s final data-processing arrangements and
+          checked against Monten Top&apos;s final data-processing arrangements and
           confirmed by a qualified adviser before the website is launched.
         </p>
 
         <p>
-          Mountain Top respects your privacy. This page explains what information
+          Monten Top respects your privacy. This page explains what information
           we collect when you use this website, why we collect it, and the choices
           available to you.
         </p>
 
         <h2>Who we are</h2>
         <p>
-          Mountain Top provides short-term rental management services in the United
-          Kingdom and Ireland. For any privacy question, contact us at{" "}
+          Monten Top provides short-term rental management services in Cork, Dublin and Limerick, Ireland. For any privacy question, contact us at{" "}
           <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
         </p>
 
@@ -91,10 +90,9 @@ export default function PrivacyPage() {
 
         <h2>Your rights</h2>
         <p>
-          Depending on where you live, you may have the right to access, correct,
-          delete, restrict or object to the processing of your personal
-          information, and to withdraw consent. In the UK you can contact the
-          Information Commissioner&apos;s Office; in Ireland, the Data Protection
+          You may have the right to access, correct, delete, restrict or object to
+          the processing of your personal information, and to withdraw consent at
+          any time. You can also raise a concern with the Irish Data Protection
           Commission. We will respond to requests within the period required by
           applicable law.
         </p>

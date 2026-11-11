@@ -17,7 +17,7 @@ export function Trust() {
           </p>
           <div className="trust__note">
             <p className="body-sm">
-              Mountain Top is a fully managed service. We take responsibility for
+              Monten Top is a fully managed service. We take responsibility for
               operating your properties and for the standard of delivery — the
               technology is the engine, not the product you are buying.
             </p>

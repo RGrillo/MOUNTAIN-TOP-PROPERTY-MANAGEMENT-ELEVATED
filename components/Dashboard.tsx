@@ -19,17 +19,17 @@ const NAV_ITEMS = [
 ];
 
 const KPIS = [
-  { label: "Portfolio revenue", value: "£42,850", meta: "+8.4% vs prior 30 days" },
+  { label: "Portfolio revenue", value: "€42,850", meta: "+8.4% vs prior 30 days" },
   { label: "Occupancy", value: "82%", meta: "+3.1 pts" },
-  { label: "Average daily rate", value: "£145", meta: "+£6.00" },
-  { label: "RevPAR", value: "£119", meta: "+£5.60" },
+  { label: "Average daily rate", value: "€145", meta: "+€6.00" },
+  { label: "RevPAR", value: "€119", meta: "+€5.60" },
 ];
 
 const PROPERTIES = [
-  { name: "Harbour View · Cornwall", value: "£7,240", bar: 92, gold: true },
-  { name: "The Quarter House · Edinburgh", value: "£6,480", bar: 84, gold: false },
-  { name: "Lakeside Lodge · Wicklow", value: "£5,910", bar: 76, gold: false },
-  { name: "Mews House · Bath", value: "£4,320", bar: 61, gold: false },
+  { name: "Harbour View · Cork", value: "€7,240", bar: 92, gold: true },
+  { name: "The Quarter House · Dublin", value: "€6,480", bar: 84, gold: false },
+  { name: "Lakeside Lodge · Limerick", value: "€5,910", bar: 76, gold: false },
+  { name: "Mews House · Cork", value: "€4,320", bar: 61, gold: false },
 ];
 
 const BOOKINGS = [
@@ -93,14 +93,14 @@ export function Dashboard() {
                 <i />
                 <i />
               </div>
-              <span className="dash__url">app.mountaintop.co.uk / portfolio</span>
+              <span className="dash__url">app.monten.top / portfolio</span>
             </div>
 
             <div className="dash__body">
               <aside className="dash__side" aria-hidden="true">
                 <div className="dash__brand">
                   <LogoMark size={16} />
-                  Mountain Top
+                  Monten Top
                 </div>
                 <nav className="dash__nav">
                   {NAV_ITEMS.map((item) => {
@@ -130,7 +130,7 @@ export function Dashboard() {
                 <div className="dash__head">
                   <div>
                     <h3>Portfolio overview</h3>
-                    <p>1–31 October · United Kingdom &amp; Ireland</p>
+                    <p>1–31 October · Cork, Dublin &amp; Limerick</p>
                   </div>
                   <span className="dash__demo">Illustrative demo data</span>
                 </div>

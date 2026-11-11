@@ -41,7 +41,7 @@ export function SiteHeader() {
         <a
           href="#top"
           className="nav-logo"
-          aria-label="Mountain Top — home"
+          aria-label="Monten Top — home"
           onClick={() => setOpen(false)}
         >
           <Logo />

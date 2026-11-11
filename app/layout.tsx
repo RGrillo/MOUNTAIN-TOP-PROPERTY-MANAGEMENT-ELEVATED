@@ -20,30 +20,32 @@ const inter = Inter({
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 const description =
-  "Maximise your short-term rental portfolio with Mountain Top. AI-powered property management, guest operations and revenue optimisation across the UK and Ireland.";
+  "Maximise your short-term rental portfolio with Monten Top. AI-powered property management, guest operations and revenue optimisation across Cork, Dublin and Limerick, Ireland.";
 
 export const metadata: Metadata = {
-  title: "Mountain Top | AI-Powered Short-Term Rental Management",
+  title: "Monten Top | AI-Powered Short-Term Rental Management",
   description,
   keywords: [
-    "airbnb management UK",
-    "short-term rental management UK",
-    "airbnb property management Ireland",
-    "holiday rental management",
-    "short-term rental property management",
+    "airbnb management Ireland",
+    "airbnb management Cork",
+    "airbnb management Dublin",
+    "airbnb management Limerick",
+    "short-term rental management Ireland",
+    "short-term rental property management Dublin",
+    "holiday rental management Cork",
     "AI property management",
     "airbnb management for investors",
     "multi-property airbnb management",
     "short-term rental revenue management",
   ],
-  authors: [{ name: "Mountain Top" }],
-  creator: "Mountain Top",
+  authors: [{ name: "Monten Top" }],
+  creator: "Monten Top",
   robots: { index: true, follow: true },
   openGraph: {
     type: "website",
-    locale: "en_GB",
-    siteName: "Mountain Top",
-    title: "Mountain Top | AI-Powered Short-Term Rental Management",
+    locale: "en_IE",
+    siteName: "Monten Top",
+    title: "Monten Top | AI-Powered Short-Term Rental Management",
     description,
     images: [
       {
@@ -56,16 +58,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mountain Top | AI-Powered Short-Term Rental Management",
+    title: "Monten Top | AI-Powered Short-Term Rental Management",
     description,
     images: ["/images/exterior-dusk-1600.webp"],
   },
-  ...(siteUrl
-    ? {
-        metadataBase: new URL(siteUrl),
-        alternates: { canonical: "/" },
-      }
-    : {}),
+  metadataBase: new URL(siteUrl ?? "https://monten.top"),
+  alternates: { canonical: "/" },
 };
 
 export const viewport: Viewport = {
@@ -78,7 +76,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-GB" className={`${manrope.variable} ${inter.variable}`}>
+    <html lang="en-IE" className={`${manrope.variable} ${inter.variable}`}>
       <body>
         <a className="skip-link" href="#main">
           Skip to content

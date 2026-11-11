@@ -40,7 +40,7 @@ export function Logo({ className }: { className?: string }) {
     <span className={className ? `logo ${className}` : "logo"}>
       <LogoMark />
       <span className="nav-logo__text">
-        <span className="nav-logo__name">Mountain Top</span>
+        <span className="nav-logo__name">Monten Top</span>
         <span className="nav-logo__tag">Property Intelligence</span>
       </span>
     </span>
